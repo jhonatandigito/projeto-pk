@@ -1,0 +1,53 @@
+body{
+  background-color: #FAEBD7;
+
+}
+
+.good{
+  display: flex;
+  max-width: 1330px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.lanche{
+  display: flex;
+ 
+  margin: 0 auto;
+  justify-content: center;
+  padding: 30px;
+}
+.par{
+  padding: 23px;
+}
+
+.gg{
+  display: flex;
+  padding-left: 50px;
+  justify-content: center;
+}
+.gg button {
+  width: 215px;
+  height: 80px;
+  background: #db381d;
+  border: 4px solid #db381d;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+  color: #e6e6e6;
+  margin-left: 10px;
+  
+}
+
+.cartao{
+  display: flex;
+  justify-content: center;
+}
+
+.pix{
+  display: flex;
+  justify-content: center;
+}

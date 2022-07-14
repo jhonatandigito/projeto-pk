@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Nunito:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./aula.css" />
+    <title>Projeto BK</title>
+  </head>
+  <body>
+    <header>
+      <section class="top">
+        <img src="./imag/Logos 1.png" alt="Projeto BKB code" />
+        <img src="./imag/Projeto BKB Code 1.png" alt="Logo BKB + kenzie" />
+      </section>
+
+      <section class="banner">
+        <img src="./imag/banner.png" alt="Banner Projeto BKB code" />
+      </section>
+    </header>
+<!--menu produtos-->
+    <main>
+      <section class="produtos">
+        <div class="container">
+          <ul class="produtoLista">
+            <li class="cardLanche">
+              <img src="./imag/image 10.png" alt="Compo Whopper" />
+              <h3>Compo Whopper </h3>
+              <p>R$ 12,00</p>
+              <button id="button0" onclick="adicionar()" ondblclick="adicionado()" > Adicionar</button>
+            </li>
+            <li class="cardLanche">
+              <img src="./imag/chicken.png" alt="BK Chicken" />
+              <h3>BK Chicken</h3>
+              <p>R$ 16.90</p>
+              <button id="button1" onclick="clicar">Adicionar</button>
+            </li>
+            <li class="cardLanche">
+              <img src="./imag/sorvete.png" alt="Sorvete" />
+              <h3>Sorvete</h3>
+              <p>R$ 8.00</p>
+              <button id="button2" onclick="clicar">Adicionar</button>
+            </li>
+            <li class="cardLanche">
+              <img src="./imag/duplo.png" alt="duplo" />
+              <h3>Duplo</h3>
+              <p>R$ 19,90</p>
+              <button id="button3" onclick="clicar">Adicionar</button>
+            </li>
+            <li class="cardLanche">
+              <img src="./imag/rodeio.png" alt="rodeio" />
+              <h3>Rodeio</h3>
+              <p>38.90</p>
+              <button id="button4" onclick="clicar">Adicionar</button>
+            </li>
+            <li class="cardLanche">
+              <img src="./imag/onion rings.png" alt="Onion Rings" />
+              <h3>Onion Rings</h3>
+              <p>R$ 11.90</p>
+              <button id="button5" onclick="clicar">Adicionar</button>
+            </li>
+            <li class="cardLanche">
+              <img src="./imag/bk mix ovomaltine.png" alt="Bk Mix Ovomaltine" />
+              <h3>Bk Mix Ovomaltine</h3>
+              <p>R$ 9.25</p>
+              <button id="button6" onclick="clicar">Adicionar</button>
+            </li>
+            <li class="cardLanche">
+              <img src="./imag/cheddar.png" alt="Chedder" />
+              <h3>Chedder</h3>
+              <p>R$ 11.90</p>
+              <button id="button7" onclick="clicar()">Adicionar</button>
+            </li>
+            <li class="cardLanche">
+              <img src="./imag/shake brownie.png" alt="Shake Brownie" />
+              <h3>Shake Brownie</h3>
+              <p>R$ 8,50</p>
+              <button id="button8" onclick="clicar">Adicionar</button>
+            </li>
+            <li class="cardLanche">
+              <img src="./imag/duplo rodeio.png" alt="Rodeio Duplo" />
+              <h3>Rodeio Duplo</h3>
+              <p>45.00</p>
+              <button id="button9" onclick="clicar">Adicionar</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="rodape">
+      <!--carrinho-->
+      <section class="carrinho">
+        <header class="resumo">
+          <div class="container">
+            <div usuario>
+              <h3>Olá bem vindos | Minha Sacola</h3>
+              <p>Retirar no balcão</p>
+            </div>
+
+            <p class="preco">Total: R$ 32.90</p>
+          </div>
+        </header>
+        <div class="container">
+          <div class="pedido">
+            <ul class="listaProdutos">
+              <li class="fim">
+                <div class="infoNome">
+                  <img src="./imag/image 10.png" alt="Compo Whopper" />
+                  <p>Compo Whopper</p>
+                </div>
+
+                <div class="infoPreco">
+                  <p>R$ 32.90</p>
+                  <button>
+                    <img
+                      src="./imag/Vector.png"
+                      alt="lixo para remover produtos "
+                    />
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="btn">
+            <button type="button">Finalizar pedido</button>
+            <button type="button">Cancelar pedido</button>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div></div>
+      </section>
+    </footer>
+    <script src = "menu.js"></script>
+  </body>
+</html>
